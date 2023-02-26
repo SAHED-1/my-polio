@@ -1,0 +1,49 @@
+
+body{font-family: 'Open Sans', sans-serif;
+}
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+ol,ul{list-style:none;}
+
+a{text-decoration: none;}
+/* common css == */
+.containar{
+    width: 1170px;
+    margin: auto;
+}
+
+
+
+
+.row{display: flex;
+flex-wrap: wrap;
+align-items: center;
+}
+/* navbar start here================ */
+nav{background-color: #02918b;}
+
+nav .logo{width: 40%;}
+nav .menu{width: 60%;
+text-align: right;
+}
+nav .menu ul li{display: inline-block;}
+nav .menu ul li a
+{color: aliceblue;
+font-weight: 800;
+font-size: 12px;
+text-transform: uppercase;
+display: inline-block;
+padding: 25px;
+}
+
+/* banner start here========== */
+
+#banner{background-image:url(../img/MYFOLIO\ \(1435\).jpg);
+height: 725px;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
